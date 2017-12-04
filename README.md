@@ -25,6 +25,12 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 ### Lectures
 
+- [Introduction to GANs](https://indico.cern.ch/event/655447/contributions/2742176/), by [Luke de Oliveira](https://ldo.io/) (November 3, 2017)
+
+- [Frontiers with GANs](https://indico.cern.ch/event/655447/contributions/2742180/), by [Michela Paganini](http://mickypaganini.github.io) (November 3, 2017)
+
+- [Nikhef Colloquium: "Teaching machines to discover particles"](https://indico.nikhef.nl/event/878/), by [Gilles Louppe](https://glouppe.github.io/) (September 29, 2017)
+
 - [CERN Academic Training Lecture Regular Programme](https://indico.cern.ch/category/72/), April 2017 (Machine Learning):
 
   - [Machine Learning (Lecture 1)](https://indico.cern.ch/event/619370/) --- [Michael Kagan](https://www.linkedin.com/in/michael-kagan-06292616/) (SLAC)
@@ -37,9 +43,14 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 - [CERN Data Science Seminars](https://indico.cern.ch/category/9320/)
 
+- [Inter-Experimental LHC Machine Learning Working Group](https://iml.web.cern.ch/) Guest Seminars:
+  - [Open challenges for improving Generative Adversarial Networks (GANs)](https://indico.cern.ch/event/673989/), by [Ian Goodfellow](http://www.iangoodfellow.com/) (October 27, 2017)
+
 ### Tutorials
 
 - [Scikit-learn Tutorial](https://indico.cern.ch/event/595059/contributions/2522192/), by [Gilles Louppe](https://glouppe.github.io/) [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/glouppe/tutorials-iml2017/tree/master/)
+
+- [TMVA Tutorial](https://indico.cern.ch/event/595059/contributions/2522191/), by [Lorenzo Moneta](https://phonebook.cern.ch/phonebook/#personDetails/?id=415998)
 
 - [Keras and TMVA interfaces Tutorial](https://indico.cern.ch/event/595059/contributions/2522193/), by [Stefan Wunsch](https://www.ims.kit.edu/14_117.php)
 
@@ -92,7 +103,9 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 - [scikit-learn](http://scikit-learn.org/stable/): General machine learning package
 
-- [TMVA](http://tmva.sourceforge.net/): ROOT's builtin machine learning package
+- [TMVA](https://root.cern.ch/tmva): ROOT's builtin machine learning package
+
+  - [TMVA-branch-adder](https://github.com/pseyfert/tmva-branch-adder): wrapper to add TMVA response to TTree without boiler plate code
 
 #### High level deep learning libraries/framework APIs
 
@@ -113,9 +126,18 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 - [ttree2hdf5](https://github.com/dguest/ttree2hdf5): Mimimalist ROOT to HDF5 converter
 
+- [hep_ml](https://github.com/arogozhnikov/hep_ml): Python algorithms and tools for HEP ML use cases
+
 <!-- ## Notebooks - [Vince Croft RooFit Notebooks](https://www.nikhef.nl/~vcroft/notebooks.html) -->
 
  ## Papers
+
+> A `.bib` file for all papers listed is [available in the `tex` directory](https://github.com/iml-wg/HEP-ML-Resources/blob/master/tex/HEPML.bib).
+
+ - M. Frate, K. Cranmer, S. Kalia, A. Vandenberg-Rodes, and D. Whiteson, “[Modeling Smooth Backgrounds and Generic Localized Signals with Gaussian Processes](https://inspirehep.net/record/1624168),” arXiv:1709.05681 [physics.data-an]. (September 17, 2017)
+
+ - E. M. Metodiev, B. Nachman, and J. Thaler, “[Classification without labels: Learning
+from mixed samples in high energy physics](https://inspirehep.net/record/1615464),” arXiv:1708.02949 [hep-ph]. (August 9, 2017)
 
 - J. Bendavid, "[Efficient Monte Carlo Integration Using Boosted Decision Trees and Generative Deep Neural Networks](https://inspirehep.net/record/1608392)," arXiv:1707.00028 [hep-ph]. (June 30, 2017)
 
@@ -147,9 +169,13 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 - J. Barnard, E. N. Dawe, M. J. Dolan, and N. Rajcic, ["Parton Shower Uncertainties in Jet Substructure Analyses with Deep Neural Networks](https://inspirehep.net/record/1485081)," Phys. Rev. D95 (2017) no. 1, 014018, arXiv:1609.00607 [hep-ph] (September 2, 2016)
 
+- A. Rogozhnikov, “[Reweighting with Boosted Decision Trees](https://inspirehep.net/record/1482753),” J. Phys. Conf. Ser. 762 (2016) no. 1, 012036, arXiv:1608.05806 [physics.data-an]. (August 20, 2016)
+
 - S. Caron, J.S. Kim, K. Rolbiecki, R. Ruiz de Austri, B. Stienen "[The BSM-AI project: SUSY-AI -- Generalizing LHC limits on supersymmetry with machine learning](https://inspirehep.net/record/1456927)", EPJ C (2017) 77:257, arXiv:1605.02797 [hep-ph]. (May 9, 2016)
 
 - A. Aurisano, A. Radovic, D. Rocco, A. Himmel, M. D. Messier, E. Niner, G. Pawloski, F. Psihas, A. Sousa, and P. Vahle, "[A Convolutional Neural Network Neutrino Event Classifier](https://inspirehep.net/record/1444342)," JINST 11 (2016) no. 09, P09001, arXiv:1604.01444 [hep-ex]. (April 5, 2016)
+
+- P. Baldi, K. Cranmer, T. Faucett, P. Sadowski, and D. Whiteson, “[Parameterized neural networks for high-energy physics](https://inspirehep.net/record/1418479),” Eur. Phys. J. C76 (2016) no. 5, 235, arXiv:1601.07913 [hep-ex]. (January 28, 2016)
 
 - L. de Oliveira, M. Kagan, L. Mackey, B. Nachman, and A. Schwartzman, "[Jet-images deep learning edition](https://inspirehep.net/record/1405106)," JHEP 07 (2016) 069, arXiv:1511.05190 [hep-ph]. (November 16, 2015)
 
@@ -161,14 +187,19 @@ Listing of useful (mostly) public learning resources for machine learning applic
 
 - V. Gligorov, M. Williams, "[Efficient, reliable and fast high-level triggering using a bonsai boosted decision tree](https://inspirehep.net/record/1193348)," arXiv:1210.6861 [physics]. (October 25, 2012)
 
+- B. H. Denby, “[Neural Networks and Cellular Automata in Experimental High-energy Physics](http://inspirehep.net/record/253511),” Comput. Phys. Commun. 49 (1988) 429–448. (September 20, 1987)
+
 ## Workshops
 
 ### Upcoming
 
-- [18th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2017)](https://indico.cern.ch/event/567550/) (August 21-25, 2017)
+- [Deep Learning for Physical Sciences at NIPS](https://dl4physicalsciences.github.io/) (December 8, 2017)
+
+- [4th International Connecting The Dots Workshop (2018)](https://indico.cern.ch/event/658267/) (March 20-22, 2018)
 
 ### Past
 
+- [18th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2017)](https://indico.cern.ch/event/567550/) (August 21-25, 2017)
 - [Hammers & Nails - Machine Learning & HEP](https://www.weizmann.ac.il/conferences/SRitp/Summer2017/) (July 19-28, 2017)
 - [CMS Machine Learning Workshop (2017)](https://indico.cern.ch/event/646801) (July 5-6, 2017) ![CMS only](https://img.shields.io/badge/restricted-CMS-red.svg)
 - [ATLAS Machine Learning Workshop (2017)](https://indico.cern.ch/event/630665/overview) (June 6-9, 2017) ![ATLAS only](https://img.shields.io/badge/restricted-ATLAS-red.svg)
